@@ -1,23 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-blue-950">
     <!-- Header -->
 
-    <div class="header">
-     
-     <div></div>
-        
+    <div class="header flex justify-between items-center w-[80%] mx-auto my-2">
+      <!-- Logo and menu -->
+      <div class="flex justify-between items-center gap-2">
+        <h1 class="text-white font-bold text-xl">LOGO</h1>
+        <div class="space-x-1 text-xl text-white md:flex hidden">
+          <a href="#" class="hover:text-blue-500">Home</a>
+          <a href="#" class="hover:text-blue-500">About</a>
+          <a href="#" class="hover:text-blue-500">Home</a>
+          <a href="#" class="hover:text-blue-500">Home</a>
+        </div>
+      </div>
+
+      <div class="bts space-x-2 lg:block hidden">
+        <a href="" class="text-white">Login</a>
+        <button
+          class="bg-blue-300 text-white px-6 py-3 rounded-r rounded-l text-2xl"
+        >
+          Joina
+        </button>
+      </div>
+      <div class="icon lg:hidden block mr-[40px]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="white"
+          class="w-8 h-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 9h16.5m-16.5 6.75h16.5"
+          />
+        </svg>
+      </div>
     </div>
-    
+    <div class="Hero grid md:grid-cols-2 place-items-center">
+      <!-- Section two -->
+      <!-- Text -->
 
+      <div class="Text text-white w-[80%] mx-auto">
+        <h1 class="text-white text-4xl">High Cources</h1>
+        <p class="text-gray-400 text-1xl">
+          We know large objects will act but thing on small
+        </p>
 
+        <!-- Buttons -->
+        <div class="button">
+          <button
+            class="bg-blue-300 text-white px-6 py-3 rounded-r rounded-l text-2xl"
+          >
+            Get Qoute now
+          </button>
+          <button
+            class="border border-1 text-white px-6 py-3 rounded-r rounded-l text-2xl"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
 
-
-</body>
+      <div class="img">
+        <img
+          src="imge/undraw_Newspaper_re_syf5__1_-removebg-preview (1).png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
 </html>
